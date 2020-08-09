@@ -1,0 +1,104 @@
+ html {
+	background-color: rgb (30 30 30);
+} 
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 15px;
+     line-height: 1.5;
+     padding: 0; 
+     margin: 0; 
+     background-color: rgb(30 30 30);
+ }
+/* Global */
+.container{
+	width: 80%; 
+	margin: auto;
+	overflow: hidden;
+}
+input[type="button"], input[type="submit"], select{
+   cursor: pointer;  	
+ }
+/*header*/
+header{
+    /*background-color: #2c2f33;*/
+    background-color: rgb(30 30 30);
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+header ul{
+    margin: 0; 
+    padding: 0;
+    list-style-type: none;
+}
+header li {
+    display: inline;   
+    padding: 0 0px 0 20px;
+}
+header nav {
+    float: right;
+     margin: 25px; 
+}
+header .current a {
+    color: rgb(222 122 98);
+}
+header a:hover{
+    color: rgb(222 122 98);
+    font-weight: bold; ;
+}
+#mainSection{
+	height: 525px; 	
+	background: url(../img/unitTesting.jpg) no-repeat;
+    background-size: cover;
+    background-color: rgb(30 30 30);
+}
+#mainSection h2 {
+	position:absolute; 
+	left: 39%; 
+	top: 30%;
+	color: white; 
+}
+#mainSection select {
+	border-color: rgb(30 30 30);
+	border-width: 1.25px; 
+	border-radius: 12px;
+	width: 235px; 
+}
+#mainSection div {
+	position: absolute; 
+	left: 42%; 
+	top: 50%; 
+}
+input[type="submit"]{
+	margin-top: 5px;
+	width: 235px; 	
+	background-color: white;
+	border-color: rgb(30 30 30);
+	border-radius: 12px;
+	border-width: 3px;
+	padding: 4px;
+	color: rgb(30 30 30);
+	font-weight: bold; 
+}
+input[type="submit"]:hover{
+	 color: white;
+	 background-color: rgb(30 30 30); 
+	 font-weight: bold;
+}
+footer {
+   margin: 0;
+   color: white;
+   text-align: center;
+   height: 80px;
+   background-color: rgb(30 30 30);
+} 
+footer p {
+   margin: 0; 
+   padding-top: 40px;
+}

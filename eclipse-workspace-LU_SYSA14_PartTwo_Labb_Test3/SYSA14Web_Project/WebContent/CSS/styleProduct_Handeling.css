@@ -1,0 +1,214 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   line-height: 1.5;
+   padding: 0; 
+   margin: 0; 
+   background-color: white;
+}
+/* Global */
+.container{
+  width: 80%; 
+  margin: auto;
+  overflow: hidden;
+}
+input[type="button"], input[type="submit"], select{
+   cursor: pointer;  	
+ }
+/*header*/
+header{
+  /*background-color: #2c2f33;*/
+  background-color: rgb(30 30 30);
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+}
+#customerFeedback{
+   margin: 25px;
+   float: left;
+   font-weight: bold; 
+}
+header a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+header ul{
+  margin: 0; 
+  padding: 0;
+  list-style-type: none;
+}
+header li {
+  display: inline;   
+  padding: 0 0px 0 20px;
+}
+header nav {
+  float: right;
+   margin: 25px; 
+}
+header .current a {
+  color: rgb(222 122 98);
+}
+header a:hover{
+  color: rgb(222 122 98);
+  font-weight: bold;
+}
+/* informationSection */
+#informationSection {
+  margin-left: 10%;
+  background-color: white;
+  height: 400px;
+}
+#informationBoxes {
+  display: inline; 
+}
+#infoBox {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  height: 370px;
+  float: left;
+  width: 30%;
+  text-align: left;
+  overflow: hidden;
+}
+#infoBox h3{
+  text-align: center;
+  max-width: 200px;
+}
+#infoBox img {
+  height: 200px; 
+}
+#picBox {
+  background-image: url(../img/verktyg.jpg);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  float: right;
+  width: 70%;
+}
+#picBox img {
+  height: 400px;
+}
+/* inputSection */
+#inputSection {
+  background-color: rgb(30 30 30);
+}
+#inputSection div {
+  padding-top: 40px; 
+  padding-bottom: 40px;
+}
+#inputSection div input[type="button"]{
+  margin-left: 44%;
+  background-color: rgb(30 30 30);
+  float: left;
+  color: white;
+  border: white;
+  border-style: solid;
+  text-align: center;
+  width: 120px;
+  height: 50px;
+  border-radius: 12px;
+}
+#inputSection div input[type="button"]:hover{
+  color: rgb(222 122 98);
+  font-weight: bold; 
+  border-color: rgb(222 122 98);
+
+}
+/* displaySection */
+#displaySection {
+  background-color: white;
+  padding: 40px;
+} 
+#displaySection div{
+  width: 700px;
+  height: 400px;
+  margin-left: auto; 
+  margin-right: auto;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  border-style: solid;
+  border-radius: 25px;
+  border-width: 4px;
+  overflow: scroll;
+
+}
+#displayProductTable {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 300px;
+  padding: 2px;
+  border-style: solid;
+  border-radius: 25px;
+  border-width: 4px;
+  border-color: white;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  overflow: scroll;   
+}
+#displayProductTable th {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+#displayProductTable td {
+  border: 2px solid rgb(30 30 30);
+  height: 30px;
+  padding: 4px;
+}
+#displayProductTable tr:nth-child(even){
+  background-color:  lightgray;
+}
+#displayProductTable input[type="button"]{
+   border-color: rgb(30 30 30);
+   border-radius: 12px;
+   padding: 4px;
+   background-color:rgb(30 30 30);
+   color: white;
+}
+
+#displayProductTable input[type="button"]:hover{
+   font-weight: bold;
+   background-color: white;
+   color: rgb(30 30 30);
+}
+/*
+#submitUpdateProduct{
+  border-color: rgb(30 30 30);
+  border-radius: 12px;
+  padding: 4px;
+  background-color:rgb(30 30 30);
+  color: white;
+}
+#submitDeleteProduct{
+  border-color: rgb(30 30 30);
+  border-radius: 12px;
+  padding: 4px;
+  background-color:rgb(30 30 30);
+  color: white;
+}
+#submitUpdateProduct:hover{
+  font-weight: bold;
+  background-color: white;
+  color: rgb(30 30 30);
+}
+#submitDeleteProduct:hover{
+  font-weight: bold;
+  background-color: white;
+  color: rgb(30 30 30);
+}
+*/
+/* footer */
+footer {
+  margin: 0;
+  color: white;
+  text-align: center;
+  height: 80px;
+  background-color: rgb(30 30 30);
+} 
+footer p {
+  padding-top: 40px;
+}
